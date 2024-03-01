@@ -1,0 +1,43 @@
+/* Polices */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: 'lato';
+    font-style: bold;
+    color: black;
+}
+
+h2 {
+    font-family: 'lato';
+    font-style: italic;
+    color: black;
+}
+
+h3 {
+    font-family: 'lato';
+    color: black;
+}
+
+* {
+    font-family: 'raleway';
+}
+
+.en-tête {
+    color: white;
+}
+
+.informations {
+    color: white;
+}
+
+.personnel {
+    color: white;
+}
+
+.professionnel {
+    color: black;
+}
+
+.contact {
+    color: white;
+}

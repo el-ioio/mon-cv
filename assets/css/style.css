@@ -3,7 +3,7 @@
 h1 {
     font-family: 'lato';
     font-style: bold;
-    color: black;
+    color: white;
 }
 
 h2 {
@@ -11,6 +11,7 @@ h2 {
     font-style: italic;
     color: black;
     background-color: #dbc2a4;
+    text-indent: 3%;
 }
 
 h3 {
@@ -44,11 +45,9 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
+    align-content: space-around;
+    padding: 20px;
 }
 
 header {
@@ -75,6 +74,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 25px;
 }
 
 footer {
@@ -91,5 +91,48 @@ body {
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
+    border: 1px solid black;
+}
+
+.a-propos p {
+    text-indent: 8%;
+    overflow-y: auto;
+}
+
+.mon-portrait:hover {
+    cursor: zoom-in;
+}
+
+.col-gauche h2 {
+    margin-right: 25px;
+}
+
+.réseaux:hover {
+    filter: opacity(50%);
+}
+
+.lien:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.trait {
+    height: 4px;
+    background-color: #782221;
+    width: 0%;
+    transition: 1s;
+    position: relative;
+    margin-left: 450px;
+    max-width: 50px;
+}
+
+li:hover .trait {
+    width: 100%;
+}
+
+#formation:hover .trait {
+    width: 100%;
 }
